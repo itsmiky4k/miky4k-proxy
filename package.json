@@ -1,0 +1,16 @@
+{
+  "name": "miky4k-proxy",
+  "version": "1.0.0",
+  "description": "Proxy service with Vercel Web Analytics",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "vercel deploy"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
